@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=IBM+Plex+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  background-color: #3a3a3a;
+  font-family:'Francois One', sans-serif;
+  color: white;
+}
+
+header {
+  padding-bottom: 40px;
+}
+
+
+h1 {
+  text-align: center;
+  background-color: rgb(255, 125, 35);
+  color: #ffffff;
+  box-shadow: 0px 2px 0 rgba( 0, 0, 0, 1);
+  font-weight:normal;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.ad {
+  margin: 0 10%;
+ height: 600px;
+}
+
+.telegrambutton {
+  background-color: rgb(68, 182, 253);
+  font-family: 'Francois One', sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  width: 300px;
+  height: 50px;
+  margin: 10px 10%;
+  font-size: 18px;
+}
+
+.telegrambutton:hover {
+  transition-duration: 0.1s;
+  background-color: rgb(0, 154, 250);
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.292), 0 4px 7px 0 rgba(0, 0, 0, 0.265);
+  transform: translateY(1px);
+}
+
+.dlbutton {
+  background-color: rgb(254, 131, 43);
+  font-family: 'Francois One', sans-serif;
+  font-size: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  width: 300px;
+  height: 50px;
+  margin: 0% 10%;
+}
+
+.dlbutton:hover {
+  transition-duration: 0.1s;
+  background-color: rgb(250, 114, 23);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.300), 0 1px 2px 0 rgba(0, 0, 0, 0.300);
+  transform: translateY(1px);
+}

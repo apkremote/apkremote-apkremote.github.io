@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=IBM+Plex+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  background-color: #3a3a3a;
+  font-family:'Francois One', sans-serif;
+  color: white;
+}
+
+header {
+  padding-bottom: 40px;
+}
+
+
+h1 {
+  text-align: center;
+  background-color: rgb(255, 125, 35);
+  color: #ffffff;
+  box-shadow: 0px 2px 0 rgba( 0, 0, 0, 1);
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin: 0 2%;
+}
+
+.telegrambutton {
+  background-color: rgb(68, 182, 253);
+  font-family: 'Francois One', sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 80px;
+  border: 2px solid #ffffff;
+  width: 170px;
+  height: 35px;
+  margin-left: 4%;
+  box-shadow: 0 2px 7px 0 rgba(255, 255, 255, 0.300);
+}
+
+.telegrambutton:hover {
+  transition-duration: 0.1s;
+  background-color: rgb(0, 154, 250);
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.292), 0 4px 7px 0 rgba(0, 0, 0, 0.265);
+  transform: translateY(1px);
+}
+
+.instagrambutton {
+  background-color: rgb(255, 94, 234);
+  font-family: 'Francois One', sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 80px;
+  border: 2px solid #ffffff;
+  width: 170px;
+  height: 35px;
+  box-shadow: 0 2px 7px 0 rgba(255, 255, 255, 0.300);
+}
+
+.instagrambutton:hover {
+  transition-duration: 0.1s;
+  background-color: rgb(250, 35, 211);
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.292), 0 4px 7px 0 rgba(0, 0, 0, 0.265);
+  transform: translateY(1px);
+}
+
+.faqbutton {
+  background-color: rgb(22, 255, 1);
+  font-family: 'Francois One', sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 100px;
+  border: 2px solid #ffffff;
+  width: 37px;
+  height: 37px;
+  margin-left: 85%;
+  margin-top: 200%;
+  position: fixed;
+}
+
+.faqbutton:hover {
+  transition-duration: 0.1s;
+  background-color: rgb(0, 201, 0);
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.292), 0 4px 7px 0 rgba(0, 0, 0, 0.265);
+  transform: translateY(1px);
+}
+
+
+main {
+  background-color: rgb(83, 83, 83);
+  border-radius: 5px;
+  margin: 10px;
+  display: inline-flex;
+  box-shadow: 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logodl {
+  padding: 5px;
+  float: left;
+  width: 37%;
+}
+
+.logo {
+  border-radius: 5px;
+  height: 120px;
+  width: 120px;
+}
+
+.dlbutton {
+  background-color: rgb(254, 131, 43);
+  font-family: 'Francois One', sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  width: 120px;
+  height: 25px;
+}
+
+.dlbutton:hover {
+  transition-duration: 0.1s;
+  background-color: rgb(250, 114, 23);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.300),
+  transform: translateY(1px);
+}
+
+.infotitle {
+  padding-left: 2%;
+  padding-top: 2px;
+}
+
+.title {
+  font-weight:normal;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  font-size: 12.5px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.info {
+  justify-content: center;
+  font-size: 13px;
+}
